@@ -1,0 +1,77 @@
+@import "mixins";
+
+@import "icons"; // icons!
+@import "global"; // global items
+@import "framework"; // pieces of the layout that make up large parts - header, nav, shield, content wrappers
+@import "pages";
+@import "forms";
+
+/***
+  * FONTS
+  ***/
+
+$mainFont: Helvetica, Arial, sans-serif;
+$headerFont: $mainFont;
+
+// CUSTOM FONTS
+// END CUSTOM FONTS
+
+@import "fonts-styles";
+
+// CUSTOM FONT STYLES
+// END CUSTOM FONT STYLES
+
+/***
+  * COLOURING
+  ***/
+
+$main: #bb2d2b;
+$white: #FFFFFF;
+$black: #000000;
+$darkGrey: #323031;
+$lightGrey: #d0d2d3;
+$alertRed: #FF0000; // new! fav!
+
+@import "colours-default";
+
+// CUSTOM COLOURS
+$noresults: $black;
+$leaderboardEven: $white;
+$top10HeaderBKG: rgba(lighten($main, 40%), 0.25);
+$top10Header: $black;
+$top10HeaderIcon: $black;
+$rewardBarBKG: $main;
+$pointMarker: $black;
+$article: $white;
+// END CUSTOM COLOURS
+
+@import "colours-styles";
+
+/***
+  * CUSTOM STYLING
+  ***/
+
+.content { // no-repeat, cover, center center, fixed
+  background: $white;
+}
+.loader .content {
+  background-image: url('../splash_7201280.png');
+  background-position: center center;
+}
+
+nav#header .logo {
+  height: 70%;
+}
+
+.shortcuts > a {
+  background-color: rgba(darken($main, 15%), 0.25);
+}
+
+article .wrapper {
+  border-left: 3px solid $main;
+  background-color: rgba(lighten($main, 40%), 0.25);
+}
+
+.searchBar_wrapper {
+  border-bottom: 1px solid $main;
+}
