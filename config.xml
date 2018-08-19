@@ -66,6 +66,7 @@
 	  <icon src="res/icon/icon_120.png" gap:platform="ios" width="120" height="120"/>
 	  <icon src="res/icon/icon_144.png" gap:platform="ios" width="144" height="144"/>
 	  <icon src="res/icon/icon_152.png" gap:platform="ios" width="152" height="152"/>
+  	<icon src="res/icon/icon_1024.png" gap:platform="ios" width="1024" height="1024"/>
 
 	  <icon src="res/icon/icon_36a.png" gap:platform="android" gap:density="ldpi"/>
 	  <icon src="res/icon/icon_48a.png" gap:platform="android" gap:density="mdpi"/>
