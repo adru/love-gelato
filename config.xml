@@ -3,12 +3,12 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		id        = "guru.trueblue.lovegelato"
-		android-versionCode="2100"
-		versionCode="210"
-		version   = "2.1.0">
+		android-versionCode="2110"
+		versionCode="211"
+		version   = "2.1.1">
 
 		<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-		  <string>2.1.0</string>
+		  <string>2.1.1</string>
 		</gap:config-file>
 
 	  <name>LoveGelato</name>
